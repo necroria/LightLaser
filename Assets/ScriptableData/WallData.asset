@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f672fdf338863f8498a53c635ee3b76b, type: 3}
+  m_Name: WallData
+  m_EditorClassIdentifier: 
+  wallPreset:
+  - type: 0
+    tag: 0
+    sprite: {fileID: 21300000, guid: e447f7070b1c26a4cab786ee42a5cac9, type: 3}
+  - type: 1
+    tag: 1
+    sprite: {fileID: 21300000, guid: 389a1c9b35f81b546abf22c876a69e25, type: 3}
+  - type: 2
+    tag: 0
+    sprite: {fileID: 21300000, guid: 0145038dcb0d5a344ae057fb538e824c, type: 3}
+  - type: 3
+    tag: 1
+    sprite: {fileID: 21300000, guid: bf808bf758905c04c9d229beb2940edd, type: 3}
+  - type: 4
+    tag: 0
+    sprite: {fileID: 21300000, guid: a3fa8f2a31bbb3c4fba8f6682dd9fa72, type: 3}
+  - type: 5
+    tag: 1
+    sprite: {fileID: 21300000, guid: 7a08c0fdab4091543b9761dd4c9dd1e7, type: 3}
+  triPath:
+  - {x: 0.5, y: 0.5}
+  - {x: 0.5, y: -0.5}
+  - {x: -0.5, y: -0.5}
+  physicsMaterial2Ds:
+  - {fileID: 6200000, guid: ffa3c06a7ab5c0a459eefc5340a12fe7, type: 2}
+  - {fileID: 6200000, guid: 4eae34968327ba74da00f65243540941, type: 2}
